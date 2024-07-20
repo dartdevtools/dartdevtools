@@ -1,0 +1,71 @@
+name: Package Request
+description: Use this issue template to add a new package to dartdevtools.com
+title: "[ADD PACKAGE]: package_name "
+labels: ["community::package_request"]
+#projects: ["octo-org/1", "octo-org/44"]/
+assignees:
+  - ABC2015
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this package feature request!
+  - type: textarea
+    id: package-name
+    attributes:
+      label: Package Name
+      description: Details of the package(s) you want to add?
+      placeholder: Tell us what you see!
+      value: |
+      - Name of the package: 
+      - Pub URL: 
+      - Category/section (Check dartdevtools.com for updated categories): 
+      - Reason why it is best suited for this category: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What main category does this serevr side package belong to?
+      multiple: true
+      options:
+        - Framework
+        - Library
+  - type: dropdown
+    id: type
+    attributes:
+      label: Is this package your original creation or a fork of an abandoned package?
+      multiple: true
+      options:
+        - Original Package
+        - Forked Package
+   - type: dropdown
+    id: functionality
+    attributes:
+      label: What library functionality does this fall under?  If Framework select "None".
+      multiple: true
+      options:
+        - Database
+        - API
+        - Authentication & Authorization
+        - Middleware
+        - Deployment
+        - Monitoring & Logging
+        - Security
+        - Networking
+        - Testing
+        - Task Scheduling
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
