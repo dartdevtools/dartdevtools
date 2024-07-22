@@ -77,8 +77,10 @@ Our goal is to list only stable, active, and maintained packages. Each submissio
 ### Note for New Packages
 For new packages that have not been around for six months or longer, there are three options to increase the community visibility of your package:
 
-1. **Join the Discord Community**: Submit a link to your package in the "fresh-package" channel. This channel is designed for new packages that others may be interested in.
-2. **Submit for Code Lab Review**: Have your package reviewed via a code lab review at dartcodelabs.com.
+1. **Join the Discord Community**: Submit a link to your package in the "new-package" channel for free. This channel is designed for new packages that others may be interested in.
+2. **Advertise on Dart Code Labs**: Feature your package under the "new-package" category on dartcodelabs.com. This service allows one of our Dart developers to create an honest and unbiased code lab review of your package. This is available for a one-time fee. Updated reviews are charged at the same rate.
+3. **Own Your Channel**: Opt for a dedicated channel exclusively for your framework or library. This service comes with a monthly fee, billed annually. Having a dedicated channel helps you engage directly with the community and provide focused support.
+
 
 Thank you for your submission! We will review the package based on the above criteria to ensure it is active and maintained.
 
