@@ -1,4 +1,4 @@
-name: PackageRequest
+name: Package Request
 description: Use this issue template to add a new package to dartdevtools.com
 title: "[ADD PACKAGE]: package_name "
 labels: ["community::package_request"]
