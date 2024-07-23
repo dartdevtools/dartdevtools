@@ -21,12 +21,12 @@ Please follow the instructions provided below to get started:
 
 **Step 1** - Click on the [Issue tab](https://github.com/dartdevtools/dartdevtools/issues) of this repo.
 
- ![stepone]( "issue_step_one.png")
+ ![stepone]( /issue_step_one.png)
 
 
 **Step 2** - Click on **New Issue**
 
- ![step two]( "new_issue_step_two.png")
+ ![step two]( /new_issue_step_two.png)
 
 
 
@@ -36,12 +36,12 @@ Please follow the instructions provided below to get started:
 * Provide feedback and/or request a new feature
 * Report any bug on the website
 
- ![step three]( "select_issue_type_step_three.png")
+ ![step three]( /select_issue_type_step_three.png")
 
 
 **Step 4** - FIll in the details
 
- ![step four]( "add_package_detail_step_four.png")
+ ![step four]( /add_pckage_detail_step_four.png)
 
 ### Criteria for Active and Maintained Packages
 
