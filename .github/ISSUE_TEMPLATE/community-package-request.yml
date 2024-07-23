@@ -27,7 +27,7 @@ body:
     id: category
     attributes:
       label: What main category does this server-side package belong to?
-      multiple: true
+      multiple: false
       options:
         - Framework
         - Library
@@ -43,7 +43,7 @@ body:
     id: functionality
     attributes:
       label: What library functionality does this fall under? If Framework select "None".
-      multiple: true
+      multiple: false
       options:
         - Database
         - API
