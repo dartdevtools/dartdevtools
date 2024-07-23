@@ -2,7 +2,7 @@ name: Package Request
 description: Use this issue template to add a new package to dartdevtools.com
 title: "[ADD PACKAGE]: package_name "
 labels: ["community::package_request"]
-#projects: ["octo-org/1", "octo-org/44"]/
+#projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - ABC2015
 body:
@@ -17,16 +17,16 @@ body:
       description: Details of the package(s) you want to add?
       placeholder: Tell us what you see!
       value: |
-      - Name of the package: 
-      - Pub URL: 
-      - Category/section (Check dartdevtools.com for updated categories): 
-      - Reason why it is best suited for this category: "A bug happened!"
+        - Name of the package: 
+        - Pub URL: 
+        - Category/section (Check dartdevtools.com for updated categories): 
+        - Reason why it is best suited for this category: "A bug happened!"
     validations:
       required: true
   - type: dropdown
     id: category
     attributes:
-      label: What main category does this serevr side package belong to?
+      label: What main category does this server-side package belong to?
       multiple: true
       options:
         - Framework
@@ -35,14 +35,14 @@ body:
     id: type
     attributes:
       label: Is this package your original creation or a fork of an abandoned package?
-      multiple: true
+      multiple: false
       options:
         - Original Package
         - Forked Package
-   - type: dropdown
+  - type: dropdown
     id: functionality
     attributes:
-      label: What library functionality does this fall under?  If Framework select "None".
+      label: What library functionality does this fall under? If Framework select "None".
       multiple: true
       options:
         - Database
@@ -55,6 +55,7 @@ body:
         - Networking
         - Testing
         - Task Scheduling
+        - None
   - type: textarea
     id: logs
     attributes:
