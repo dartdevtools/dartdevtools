@@ -55,7 +55,7 @@ body:
         - Networking
         - Testing
         - Task Scheduling
-        - None
+        - Not Applicable
   - type: textarea
     id: logs
     attributes:
