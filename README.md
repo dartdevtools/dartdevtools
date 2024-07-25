@@ -6,7 +6,7 @@ DartDevTools is a growing curated list of active useful Server Side, Backend, an
 
 Welcome to the Community Contribution GitHub repository for [Dart Dev Tools](https://dartdevtools.com/) which is used for:
 
-* Adding new packages to the website ([link](https://github.com/dartdevtools/dartdevtools#how-to-add-a-new-package-to-dart-dev-tools-also-used-for-reporting-issues-providing-feedback-and-making-new-feature-requests)),
+* Adding new packages to the website ([link](https://dartdevtools.com/)),
 * Issue reporting,
 * Feedback, and
 * New feature requests
