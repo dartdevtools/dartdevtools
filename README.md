@@ -1,7 +1,3 @@
-# dartdevtools
-
-DartDevTools is a curated list of 100+ useful Backend packages that are categorized based on frequency of updates, reliability, stability, functionality.
-
 # Dart Dev Tools Community Contribution Guide
 
 DartDevTools is a growing curated list of active useful Server Side, Backend, and Framework packages that are categorized based on frequency of updates, reliability, stability, functionality.
@@ -36,7 +32,7 @@ Please follow the instructions provided below to get started:
 * Provide feedback and/or request a new feature
 * Report any bug on the website
 
- ![step three]( /select_issue_type_step_three.png")
+ ![step three]( /select_issue_type_step_three.png)
 
 
 **Step 4** - FIll in the details
