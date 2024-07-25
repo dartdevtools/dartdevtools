@@ -42,7 +42,7 @@ body:
   - type: dropdown
     id: functionality
     attributes:
-      label: What library functionality does this fall under? If Framework select "None".
+      label: What library functionality does this fall under? If Framework select "Not Applicable".
       multiple: false
       options:
         - Database
